@@ -1,0 +1,45 @@
+/**/
+
+<div className={styles.banner}>
+      <div className={styles["products-heading"]}>
+        <h2>Best Selling Products</h2>
+      </div>
+
+      <div className={styles["products-container"]}>
+        <div className={styles["product-card"]}>
+          {/*image */}
+          <img
+            src={imgTest}
+            className={styles["product-image"]}
+            alt=''
+            width={200}
+            height={200}
+          />
+          {/*name */}
+          <p className={styles["product-name"]}>
+            Laptop HP 306687
+          </p>
+
+          {/*price */}
+          <div className={styles.priceG}>
+            <p className={styles["product-price-before"]}>
+              $150
+            </p>
+            <p className={styles["product-price-discount"]}>
+              5%<b>OFF</b>
+            </p>
+          </div>
+          <p className={styles["product-price-after"]}>
+            $100
+          </p>
+
+          {/*button */}
+          <div className={styles["product-button-offer"]}>
+            <button className='--btn --btn-danger'>ADD TO CART</button>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+
+    

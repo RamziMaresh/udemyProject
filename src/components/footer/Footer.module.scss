@@ -1,0 +1,19 @@
+.footer {
+  background: rgb(173, 29, 58);
+  background: linear-gradient(
+    90deg,
+    rgba(173, 29, 58, 1) 0%,
+    rgba(184, 57, 82, 1) 50%,
+    rgba(189, 59, 85, 1) 100%
+  );
+  color: #fff;
+  font-size: 1.6rem;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 8rem;
+  p {
+    color: #fff;
+  }
+}
